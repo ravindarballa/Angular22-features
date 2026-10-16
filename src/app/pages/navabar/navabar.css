@@ -1,0 +1,12 @@
+.brand {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.active {
+  background: var(--mat-sys-secondary-container);
+}

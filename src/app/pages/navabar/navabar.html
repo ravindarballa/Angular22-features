@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <mat-icon>local_movies</mat-icon>
+  <span class="brand">Mflix</span>
+
+  <span class="spacer"></span>
+
+@for(link of links; track link.path){
+  <a mat-button [routerLink]="link.path"> 
+    <mat-icon>{{link.icon}}</mat-icon>
+  </a>
+}
+
+  <button mat-icon-button aria-label="Account">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</mat-toolbar>
+
